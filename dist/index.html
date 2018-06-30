@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="logo">Calculator </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-6 pl-0 pr-0">
+                    <div class="calculator">
+                        <div class="col-12 pl-2 pr-2">
+                            <input class="form-control form-control--calculator" type="number" id="example-number-input" pattern="^[ 0-9]+$">
+                        </div>
+                        <div class="numeric-keypad">
+                            <div class="numeric-keypad__row">
+                                <button class="numeric-keypad__item" value="7">7</button>
+                                <button class="numeric-keypad__item" value="8">8</button>
+                                <button class="numeric-keypad__item" value="9">9</button>
+                                <button class="numeric-keypad__item numeric-keypad__item--right" value="+">+</button>
+                            </div>
+                            <br />
+                            <div class="numeric-keypad__row">
+                                <button class="numeric-keypad__item" value="4">4</button>
+                                <button class="numeric-keypad__item" value="5">5</button>
+                                <button class="numeric-keypad__item" value="6">6</button>
+                                <button class="numeric-keypad__item numeric-keypad__item--right" value="-">-</button>
+                            </div>
+                            <br />
+                            <div class="numeric-keypad__row">
+                                <button class="numeric-keypad__item" value="1">1</button>
+                                <button class="numeric-keypad__item" value="2">2</button>
+                                <button class="numeric-keypad__item" value="3">3</button>
+                                <button class="numeric-keypad__item numeric-keypad__item--right" value="*">*</button>
+                            </div>
+                            <br />
+                            <div class="numeric-keypad__row">
+                                <button class="numeric-keypad__item" value="0">0</button>
+                                <button class="numeric-keypad__item" value=".">.</button>
+                                <button class="numeric-keypad__item" value="=">=</button>
+                                <button class="numeric-keypad__item numeric-keypad__item--right" value="/">/</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="change-color">
+                        <div class="change-item" value="#000"></div>
+                        <div class="change-item change-item__oliv" value="#808000"></div>
+                        <div class="change-item change-item__mentol" value="#ADD8E6"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6 pl-0 pr-0">
+                    <div class="description">
+                        <div class="description__logo">Калькулятор</div>
+                        <div class="description__cando">Данный калькулятор имеет следуюшие возможности:</div>
+                        <ul class="description__list">
+                            <li class="description__item">сложение</li>
+                            <li class="description__item">вычитание</li>
+                            <li class="description__item">деление</li>
+                            <li class="description__item">умножение</li>
+                            <li class="description__item">сброс значения</li>
+                            <li class="description__item">изменение темы калькулятора</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8 col-md-6">
+                    <div class="copyright">
+                        2018 Soslan Kulumbekov, Inc.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
